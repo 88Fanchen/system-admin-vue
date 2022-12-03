@@ -281,7 +281,7 @@
                         }
                     }
                 })
-                return total
+                return total ? total : 0
             },
             getList(){
                 this.loading = true
